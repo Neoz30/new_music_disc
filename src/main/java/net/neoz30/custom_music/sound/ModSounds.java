@@ -11,6 +11,7 @@ public class ModSounds {
     public static final SoundEvent MUSIC_DISC_THE_WITHER = registerSoundsEvent("music_disc.the_wither");
     public static final SoundEvent MUSIC_DISC_TIME = registerSoundsEvent("music_disc.time");
     public static final SoundEvent MUSIC_DISC_EMERALD_MELODY = registerSoundsEvent("music_disc.emerald_melody");
+    public static final SoundEvent MUSIC_DISC_FORT_STRESS = registerSoundsEvent("music_disc.fort-stress");
     private static SoundEvent registerSoundsEvent(String name) {
         Identifier id = new Identifier(CustomMusic.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));

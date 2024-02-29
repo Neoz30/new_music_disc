@@ -22,18 +22,12 @@ public class ModItems {
             ModSounds.MUSIC_DISC_TIME, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 132));
     public static final Item MUSIC_DISC_EMERALD_MELODY = registerItem("music_disc_emerald_melody", new MusicDiscItem(15,
             ModSounds.MUSIC_DISC_EMERALD_MELODY, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 140));
-
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(MUSIC_DISC_SHRIEKER);
-        entries.add(MUSIC_DISC_THE_WITHER);
-        entries.add(MUSIC_DISC_TIME);
-        entries.add(MUSIC_DISC_EMERALD_MELODY);
-    }
+    public static final Item MUSIC_DISC_FORT_STRESS = registerItem("music_disc_fort-stress", new MusicDiscItem(15,
+            ModSounds.MUSIC_DISC_FORT_STRESS, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 246));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CustomMusic.MOD_ID, name), item);
     }
     public static void registerModItems() {
         CustomMusic.LOGGER.info("Registering Mod Items for " + CustomMusic.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addItemsToIngredientItemGroup);
     }
 }

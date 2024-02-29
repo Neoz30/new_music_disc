@@ -30,5 +30,13 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.fort-stress": {
+    "sounds":[
+      {
+        "name": "custom_music:records/fort-stress",
+        "stream": true
+      }
+    ]
   }
 }

@@ -37,6 +37,7 @@ public class ModItemGroups {
                         entries.add(ModItems.MUSIC_DISC_THE_WITHER);
                         entries.add(ModItems.MUSIC_DISC_TIME);
                         entries.add(ModItems.MUSIC_DISC_EMERALD_MELODY);
+                        entries.add(ModItems.MUSIC_DISC_FORT_STRESS);
 
                     }).build());
     public static void registerItemGroups() {
