@@ -14,17 +14,20 @@ import net.neoz30.custom_music.CustomMusic;
 import net.neoz30.custom_music.sound.ModSounds;
 
 public class ModItems {
-    public static final Item MUSIC_DISC_SHRIEKER = registerItem("music_disc.shrieker", new MusicDiscItem(15,
+    public static final Item MUSIC_DISC_SHRIEKER = registerItem("music_disc_shrieker", new MusicDiscItem(15,
             ModSounds.MUSIC_DISC_SHRIEKER, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 129));
-    public static final Item MUSIC_DISC_THE_WITHER = registerItem("music_disc.the_wither", new MusicDiscItem(15,
+    public static final Item MUSIC_DISC_THE_WITHER = registerItem("music_disc_the_wither", new MusicDiscItem(15,
             ModSounds.MUSIC_DISC_THE_WITHER, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 148));
-    public static final Item MUSIC_DISC_TIME = registerItem("music_disc.time", new MusicDiscItem(15,
+    public static final Item MUSIC_DISC_TIME = registerItem("music_disc_time", new MusicDiscItem(15,
             ModSounds.MUSIC_DISC_TIME, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 132));
+    public static final Item MUSIC_DISC_EMERALD_MELODY = registerItem("music_disc_emerald_melody", new MusicDiscItem(15,
+            ModSounds.MUSIC_DISC_EMERALD_MELODY, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 140));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(MUSIC_DISC_SHRIEKER);
         entries.add(MUSIC_DISC_THE_WITHER);
         entries.add(MUSIC_DISC_TIME);
+        entries.add(MUSIC_DISC_EMERALD_MELODY);
     }
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CustomMusic.MOD_ID, name), item);

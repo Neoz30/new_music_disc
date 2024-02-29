@@ -1,8 +1,11 @@
 {
-  "item.custom_music.music_disc.shrieker": "Shrieker Music Disc",
-  "item.custom_music.music_disc.shrieker.desc": "T_en_D - Shrieker",
-  "item.custom_music.music_disc.the_wither": "The Wither Music Disc",
-  "item.custom_music.music_disc.the_wither.desc": "T_en_D - The Wither",
-  "item.custom_music.music_disc.time": "Time Music Disc",
-  "item.custom_music.music_disc.time.desc": "Nameless Guy - Time"
+  "itemGroup.music_disc": "All Music Disc",
+  "item.custom_music.music_disc_shrieker": "Music Disc",
+  "item.custom_music.music_disc_shrieker.desc": "T_en_D - Shrieker",
+  "item.custom_music.music_disc_the_wither": "Music Disc",
+  "item.custom_music.music_disc_the_wither.desc": "T_en_D - The Wither",
+  "item.custom_music.music_disc_time": "Music Disc",
+  "item.custom_music.music_disc_time.desc": "Nameless Guy - Time",
+  "item.custom_music.music_disc_emerald_melody": "Music Disc",
+  "item.custom_music.music_disc_emerald_melody.desc": "AlexChocho - Emerald Melody"
 }

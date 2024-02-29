@@ -22,5 +22,13 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.emerald_melody": {
+    "sounds":[
+      {
+        "name": "custom_music:records/emerald_melody",
+        "stream": true
+      }
+    ]
   }
 }

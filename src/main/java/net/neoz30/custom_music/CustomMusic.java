@@ -2,7 +2,7 @@ package net.neoz30.custom_music;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.neoz30.custom_music.datagen.ModItemTagProvider;
+import net.neoz30.custom_music.item.ModItemGroups;
 import net.neoz30.custom_music.item.ModItems;
 import net.neoz30.custom_music.sound.ModSounds;
 import org.slf4j.Logger;
@@ -15,6 +15,7 @@ public class CustomMusic implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 		ModSounds.registerSounds();
 	}
 }
