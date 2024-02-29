@@ -1,0 +1,26 @@
+{
+  "music_disc.shrieker": {
+    "sounds":[
+      {
+        "name": "custom_music:records/shrieker",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.the_wither": {
+    "sounds":[
+      {
+        "name": "custom_music:records/the_wither",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.time": {
+    "sounds":[
+      {
+        "name": "custom_music:records/time",
+        "stream": true
+      }
+    ]
+  }
+}
