@@ -14,7 +14,7 @@ public class ModItemGroups {
     public static final ItemGroup MUSIC_DISC = Registry.register(Registries.ITEM_GROUP,
             new Identifier(CustomMusic.MOD_ID, "music_disc"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.music_disc"))
-                    .icon(() -> new ItemStack(Items.MUSIC_DISC_OTHERSIDE)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.MUSIC_DISC_RAINBOW)).entries((displayContext, entries) -> {
 
                         entries.add(Items.MUSIC_DISC_5);
                         entries.add(Items.MUSIC_DISC_11);
@@ -38,6 +38,7 @@ public class ModItemGroups {
                         entries.add(ModItems.MUSIC_DISC_TIME);
                         entries.add(ModItems.MUSIC_DISC_EMERALD_MELODY);
                         entries.add(ModItems.MUSIC_DISC_FORT_STRESS);
+                        entries.add(ModItems.MUSIC_DISC_SHULK);
 
                     }).build());
     public static void registerItemGroups() {

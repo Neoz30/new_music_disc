@@ -38,5 +38,13 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.shulk": {
+    "sounds":[
+      {
+        "name": "custom_music:records/shulk",
+        "stream": true
+      }
+    ]
   }
 }
