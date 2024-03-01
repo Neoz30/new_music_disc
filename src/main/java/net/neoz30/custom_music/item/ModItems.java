@@ -24,6 +24,10 @@ public class ModItems {
             ModSounds.MUSIC_DISC_FORT_STRESS, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 246));
     public static final Item MUSIC_DISC_SHULK = registerItem("music_disc_shulk", new MusicDiscItem(15,
             ModSounds.MUSIC_DISC_SHULK, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 109));
+    public static final Item MUSIC_DISC_AMETHYST_MELODY = registerItem("music_disc_amethyst_melody", new MusicDiscItem(15,
+            ModSounds.MUSIC_DISC_AMETHYST_MELODY, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 128));
+    public static final Item MUSIC_DISC_FOREST = registerItem("music_disc_forest", new MusicDiscItem(15,
+            ModSounds.MUSIC_DISC_FOREST, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 143));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CustomMusic.MOD_ID, name), item);
     }

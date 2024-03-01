@@ -13,6 +13,8 @@ public class ModSounds {
     public static final SoundEvent MUSIC_DISC_EMERALD_MELODY = registerSoundsEvent("music_disc.emerald_melody");
     public static final SoundEvent MUSIC_DISC_FORT_STRESS = registerSoundsEvent("music_disc.fort-stress");
     public static final SoundEvent MUSIC_DISC_SHULK = registerSoundsEvent("music_disc.shulk");
+    public static final SoundEvent MUSIC_DISC_AMETHYST_MELODY = registerSoundsEvent("music_disc.amethyst_melody");
+    public static final SoundEvent MUSIC_DISC_FOREST = registerSoundsEvent("music_disc.forest");
     private static SoundEvent registerSoundsEvent(String name) {
         Identifier id = new Identifier(CustomMusic.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));

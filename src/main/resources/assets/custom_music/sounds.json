@@ -46,5 +46,21 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.amethyst_melody": {
+    "sounds":[
+      {
+        "name": "custom_music:records/amethyst_melody",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.forest": {
+    "sounds":[
+      {
+        "name": "custom_music:records/forest",
+        "stream": true
+      }
+    ]
   }
 }
