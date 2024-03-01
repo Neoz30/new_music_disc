@@ -1,4 +1,4 @@
-package net.neoz30.custom_music.mixin;
+package net.neoz30.new_music_disc.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

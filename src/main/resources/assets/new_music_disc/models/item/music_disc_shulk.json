@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "custom_music:item/music_disc_shulk"
+    "layer0": "new_music_disc:item/music_disc_shulk"
   }
 }

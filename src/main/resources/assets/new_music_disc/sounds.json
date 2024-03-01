@@ -2,7 +2,7 @@
   "music_disc.shrieker": {
     "sounds":[
       {
-        "name": "custom_music:records/shrieker",
+        "name": "new_music_disc:records/shrieker",
         "stream": true
       }
     ]
@@ -10,7 +10,7 @@
   "music_disc.the_wither": {
     "sounds":[
       {
-        "name": "custom_music:records/the_wither",
+        "name": "new_music_disc:records/the_wither",
         "stream": true
       }
     ]
@@ -18,7 +18,7 @@
   "music_disc.time": {
     "sounds":[
       {
-        "name": "custom_music:records/time",
+        "name": "new_music_disc:records/time",
         "stream": true
       }
     ]
@@ -26,7 +26,7 @@
   "music_disc.emerald_melody": {
     "sounds":[
       {
-        "name": "custom_music:records/emerald_melody",
+        "name": "new_music_disc:records/emerald_melody",
         "stream": true
       }
     ]
@@ -34,7 +34,7 @@
   "music_disc.fort-stress": {
     "sounds":[
       {
-        "name": "custom_music:records/fort-stress",
+        "name": "new_music_disc:records/fort-stress",
         "stream": true
       }
     ]
@@ -42,7 +42,7 @@
   "music_disc.shulk": {
     "sounds":[
       {
-        "name": "custom_music:records/shulk",
+        "name": "new_music_disc:records/shulk",
         "stream": true
       }
     ]
@@ -50,7 +50,7 @@
   "music_disc.amethyst_melody": {
     "sounds":[
       {
-        "name": "custom_music:records/amethyst_melody",
+        "name": "new_music_disc:records/amethyst_melody",
         "stream": true
       }
     ]
@@ -58,7 +58,7 @@
   "music_disc.forest": {
     "sounds":[
       {
-        "name": "custom_music:records/forest",
+        "name": "new_music_disc:records/forest",
         "stream": true
       }
     ]

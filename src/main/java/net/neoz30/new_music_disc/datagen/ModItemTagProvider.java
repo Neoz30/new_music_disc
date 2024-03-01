@@ -1,10 +1,10 @@
-package net.neoz30.custom_music.datagen;
+package net.neoz30.new_music_disc.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
-import net.neoz30.custom_music.item.ModItems;
+import net.neoz30.new_music_disc.item.ModItems;
 
 import java.util.concurrent.CompletableFuture;
 

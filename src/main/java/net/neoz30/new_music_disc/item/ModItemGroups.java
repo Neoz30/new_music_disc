@@ -1,4 +1,4 @@
-package net.neoz30.custom_music.item;
+package net.neoz30.new_music_disc.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -8,11 +8,11 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-import net.neoz30.custom_music.CustomMusic;
+import net.neoz30.new_music_disc.NewMusicDisc;
 
 public class ModItemGroups {
     public static final ItemGroup MUSIC_DISC = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(CustomMusic.MOD_ID, "music_disc"),
+            new Identifier(NewMusicDisc.MOD_ID, "music_disc"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.music_disc"))
                     .icon(() -> new ItemStack(ModItems.MUSIC_DISC_RAINBOW)).entries((displayContext, entries) -> {
 
@@ -44,6 +44,6 @@ public class ModItemGroups {
 
                     }).build());
     public static void registerItemGroups() {
-        CustomMusic.LOGGER.info("Registering item groups for " + CustomMusic.MOD_ID);
+        NewMusicDisc.LOGGER.info("Registering item groups for " + NewMusicDisc.MOD_ID);
     }
 }

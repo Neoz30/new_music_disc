@@ -1,4 +1,4 @@
-package net.neoz30.custom_music.item;
+package net.neoz30.new_music_disc.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
@@ -7,8 +7,8 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
-import net.neoz30.custom_music.CustomMusic;
-import net.neoz30.custom_music.sound.ModSounds;
+import net.neoz30.new_music_disc.NewMusicDisc;
+import net.neoz30.new_music_disc.sound.ModSounds;
 
 public class ModItems {
     public static final Item MUSIC_DISC_RAINBOW = registerItem("music_disc_rainbow", new Item(new FabricItemSettings().maxCount(1).rarity(Rarity.EPIC)));
@@ -29,9 +29,9 @@ public class ModItems {
     public static final Item MUSIC_DISC_FOREST = registerItem("music_disc_forest", new MusicDiscItem(15,
             ModSounds.MUSIC_DISC_FOREST, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 143));
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(CustomMusic.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(NewMusicDisc.MOD_ID, name), item);
     }
     public static void registerModItems() {
-        CustomMusic.LOGGER.info("Registering Mod Items for " + CustomMusic.MOD_ID);
+        NewMusicDisc.LOGGER.info("Registering Mod Items for " + NewMusicDisc.MOD_ID);
     }
 }

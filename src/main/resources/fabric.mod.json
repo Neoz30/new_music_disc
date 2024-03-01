@@ -1,32 +1,32 @@
 {
 	"schemaVersion": 1,
-	"id": "custom_music",
+	"id": "new_music_disc",
 	"version": "${version}",
-	"name": "Custom Music",
-	"description": "Add new music disc",
+	"name": "New Music Disc",
+	"description": "Add 8 music disc made by fan on youtube",
 	"authors": [
 		"Neoz30"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/project/new_music_disc",
+		"sources": "https://github.com/Neoz30/new_music_disc"
 	},
 	"license": "MIT",
-	"icon": "assets/custom_music/icon.png",
+	"icon": "assets/new_music_disc/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.neoz30.custom_music.CustomMusic"
+			"net.neoz30.new_music_disc.NewMusicDisc"
 		],
 		"client": [
-			"net.neoz30.custom_music.CustomMusicClient"
+			"net.neoz30.new_music_disc.NewMusicDiscClient"
 		],
 		"fabric-datagen": [
-			"net.neoz30.custom_music.CustomMusicDataGenerator"
+			"net.neoz30.new_music_disc.NewMusicDiscDataGenerator"
 		]
 	},
 	"mixins": [
-		"custom_music.mixins.json"
+		"new_music_disc.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.7",

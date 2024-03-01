@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
-    "custom_music:music_disc_shrieker",
-    "custom_music:music_disc_the_wither",
-    "custom_music:music_disc_time",
-    "custom_music:music_disc_emerald_melody",
-    "custom_music:music_disc_fort-stress",
-    "custom_music:music_disc_shulk",
-    "custom_music:music_disc_amethyst_melody",
-    "custom_music:music_disc_forest"
+    "new_music_disc:music_disc_shrieker",
+    "new_music_disc:music_disc_the_wither",
+    "new_music_disc:music_disc_time",
+    "new_music_disc:music_disc_emerald_melody",
+    "new_music_disc:music_disc_fort-stress",
+    "new_music_disc:music_disc_shulk",
+    "new_music_disc:music_disc_amethyst_melody",
+    "new_music_disc:music_disc_forest"
   ]
 }
